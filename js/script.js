@@ -37,9 +37,9 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Flutter Developer", "Mobile Application Developer", "Cross-Platform Developer"],
-        typeSpeed: 80,
-        backSpeed: 50,
+        strings: [ " ", "Flutter Developer", "Mobile Application Developer", "Cross-Platform Developer"],
+        typeSpeed: 90,
+        backSpeed: 60,
         loop: true
 
     });
