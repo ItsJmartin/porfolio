@@ -5,9 +5,9 @@
 }
 
 /* navbar underline effects */
-.userDetail p {
+/* .userDetail p {
     text-align: end;
-}
+} */
 
 .userDetail {
     font-size: 4rem;
@@ -254,15 +254,15 @@ header .navbar ul li a:hover {
 }
 
 .home .home-content .text-3 span {
-    color: yellow;
+    color: var(--yellow);
     font-weight: 500;
     text-align: center;
 }
 
-.home h2 {
-    font-size: 2rem;
+/* .home h2 {
+    font-size: 20px;
     color: mediumpurple;
-}
+} */
 
 /*========================================================================================*/
 
@@ -333,7 +333,8 @@ header .navbar ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 10px; /* Match the image border radius */
+    border-radius: 10px;
+    /* Match the image border radius */
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
     pointer-events: none;
 }
@@ -577,6 +578,8 @@ header .navbar ul li a:hover {
 }
 
 .skills .box-container .box {
+    display: flex;
+    justify-content: center;
     height: 10rem;
     width: 15rem;
     border-radius: 1rem;
@@ -588,11 +591,12 @@ header .navbar ul li a:hover {
 .skills .box-container .box img {
     height: 100%;
     width: 70%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .skills .box-container .box:hover img {
     transform: scale(1.2);
+   border-radius: 15px;
 }
 
 
